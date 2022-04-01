@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.jpg);
+    background-color: #000000;
+}
+header{
+    color: #ffca00;
+}
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 2px;
+}
+header nav ul li a{
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffca00;
+    border-color: #000000;
+    width: 28%;
+    border-radius: 12px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+header nav ul li a input{
+    border: 1px solid #ffffff;
+    font-family: 'Akaya Telivigala', cursive;
+    width: 180px;
+    background-color: #ffca00 !important;
+    color: #000000 !important;
+    transition: all .3s;
+}
+header nav ul li a input:active{
+    font-size: 16px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #ffffff !important;
+}
+header nav ul li a:hover{
+    border: 1px solid #ffca00;
+    font-family: 'Akaya Telivigala', cursive;
+    width: 28%;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+.main-form option{
+    color: #ffffff;
+    background-color: #ffca00;
+}
+.booking-form-box{
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #ffffff;
+    margin: 12% auto 0;
+}
+.radio-btn .btn{
+     margin: 20px 10px 20px 0;
+     box-shadow: none;
+}
+.radio-btn .btn::after{
+     content: '';
+     height: 10px;
+     width: 10px;
+     top: -2px;
+     left: -1px;
+     background-color: #ffffff;
+     position: relative;
+     display: inline-block;
+     border: 3px solid #ffffff;
+     visibility: visible;
+     border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+     content: '';
+     background-color: #ffffff;
+     transition: 0.5s;
+}
+.radio-btn span{
+     color: #fff;
+     margin-right: 5px;
+     font-size: 18px;
+     font-family: 'Akaya Telivigala', cursive;
+}
+.main-form option:hover{
+    background-color: #ffca00;
+}
+.main_bg{
+    max-width: 1280px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form{
+    width: 650px;
+}
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    margin: 0 10px;
+}
+.form-text h1{
+    color: #ffffff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text h2{
+    color: #ffffff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.form-text p{
+    color: #ffffff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: large;
+}
+p{
+    color: #ffffff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: xx-small; 
+}
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid #ffca00;;
+    font-size: 20px;
+    color: #ffffff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div select{
+    width: 104%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid #ffca00;;
+    font-size: 20px;
+    color: #ffffff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+a{
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffca00;
+    border-color: #000000;
+    width: 43%;
+    border-radius: 12px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+a:hover{
+    border: 1px solid #ffca00;
+    font-family: 'Akaya Telivigala', cursive;
+    width: 43%;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+a:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #ffffff !important;
+}
+footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Royal Flights</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main_bg">
+        <div class="form">
+            <div class="form-text">
+                <h1><span><img src="art-1.png" alt=""></span>Royal Flights<span><img src="art-1.png" alt=""></span></h1>
+                <p>Welcome to the Royal Flights.</p><br>
+                <p>With us... You will Fly with Royalty and Luxery.</p>
+                <p>Book your Fisrt Flight with Us.</p>
+                <h2>Booking Page</h2>
+            </div>
+            <div class="booking-form-box">
+                <div class="radio-btn">
+                    <input type="radio" class="btn" name="check" checked="checked">
+                    <span>Return</span>
+                    <input type="radio" class="btn" name="check">
+                    <span>One-Way</span>
+                    <input type="radio" class="btn" name="check">
+                    <span>Multi-City</span>
+                    <div class="main-form">
+                        <form action="index.php" method="get">
+                            <div>
+                                <span>From: </span>
+                                <input type="text" name="name" id="name" placeholder="Manchester [MAN]" required>
+                            </div>
+                            <div>
+                                <span>To: </span>
+                                <input type="text" name="name" id="name" placeholder="Country, City or" required>
+                            </div>
+                            <div>
+                                <!-- <---this is the select option--->
+                                <span>Adult Passengers(12+ Yrs): </span>
+                                <select name="people" id="people" required>
+                                    <option value="">Quantity: </option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 Persons</option>
+                                    <option value="3">3 Persons</option>
+                                    <option value="4">4 Persons</option>
+                                    <option value="5">5 Persons</option>
+                                    <option value="6">6 Persons</option>
+                                    <option value="7">7 Persons</option>
+                                    <option value="8">8 Persons</option>
+                                </select>
+                                <!-- <---this is the select option--->
+                            </div>
+                            <div>
+                                <!-- <---this is the select option--->
+                                <span>Child Passengers(2-11 Yrs): </span>
+                                <select name="people" id="people" required>
+                                    <option value="">Quantity: </option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 Persons</option>
+                                    <option value="3">3 Persons</option>
+                                    <option value="4">4 Persons</option>
+                                    <option value="5">5 Persons</option>
+                                    <option value="6">6 Persons</option>
+                                    <option value="7">7 Persons</option>
+                                    <option value="8">8 Persons</option>
+                                </select>
+                                <!-- <---this is the select option--->
+                            </div>
+                            <div>
+                                <span>Depart Date: </span>
+                                <input type="date" name="date" id="date" placeholder="01/04/2022" required>
+                            </div>
+                            <div>
+                                <span>Return Date: </span>
+                                <p>If One-Way or Multi-City Selected. Then no need to add Return Date.</p>
+                                <input type="date" name="date" id="date" placeholder="01/05/2022" required>
+                            </div>
+                            <div>
+                                <span>Time: </span>
+                                <input type="time" name="time" id="time" placeholder="Time" required>
+                            </div>
+                            <div>
+                                <span>Travel Class: </span>
+                                <select>
+                                     <option value="1">
+                                          Economy Class
+                                     </option>
+                                     <option value="2">
+                                          Bussiness Class
+                                     </option>
+                                     <option value="3">
+                                          First Class
+                                     </option>
+                                </select>
+                           </div>
+                           <div>
+                            <a href="index.html">
+                                Search Flights ->
+                            </a>
+                            </form>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <p1>© 2022 Moeez Abdul.  All rights reserved.</p1>
+    </footer> 
+</body>
+
+</html>
